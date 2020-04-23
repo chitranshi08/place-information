@@ -24,7 +24,7 @@ export default {
   color: #2c3e50;
 }
 body{
-  background-image:url(./assets/places.jpg);
+  background-color:blue;
   background-size:cover;
 
   
