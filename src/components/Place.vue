@@ -33,7 +33,7 @@ export default {
   	showDetail(){
   		var code = this.zipCode
   	
-  		fetch(`http://api.zippopotam.us/IN/${code}`)
+  		fetch(`https://api.zippopotam.us/IN/${code}`)
   		.then((response)=>{return response.json()})
   		.then((response) =>{
   			console.log(response)
